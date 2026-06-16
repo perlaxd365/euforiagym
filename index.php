@@ -14,6 +14,51 @@ include 'template/head.php';
     <!-- Nac End -->
 
 
+    <style>
+        .sede-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fdbb2d;
+            margin-bottom: 20px;
+            transition: .3s;
+            box-shadow: 0 0 20px rgba(253, 187, 45, .4);
+        }
+
+        .sede-img:hover {
+            transform: scale(1.05);
+        }
+
+        .cs-item {
+            text-align: center;
+        }
+
+        .cs-item h4 {
+            color: #ffffff !important;
+            font-size: 22px;
+            font-weight: 700;
+            margin-top: 15px;
+        }
+
+        .cs-item p {
+            color: #cfcfcf !important;
+        }
+
+        .cs-item {
+            text-align: center;
+        }
+
+        .sede-img {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #f5b11f;
+            box-shadow: 0 0 25px rgba(245, 177, 31, 0.8);
+            margin-bottom: 20px;
+        }
+    </style>
 
     <!-- Hero Section Begin -->
     <section class="hero-section">
@@ -23,9 +68,8 @@ include 'template/head.php';
                     <div class="row">
                         <div class="col-lg-6 offset-lg-6">
                             <div class="hi-text">
-                                <span>Shape your body</span>
-                                <h1>Be <strong>strong</strong> traning hard</h1>
-                                <a href="#" class="primary-btn">Get info</a>
+                                <span>Más de 21,000 personas ya entrenan con nosotros</span>
+                                <h1>TRANSFORMA TU CUERPO EN <strong>EUFORIA GYM</strong></h1> <a href="https://wa.me/51982814717" class="primary-btn"> Solicitar Información </a>
                             </div>
                         </div>
                     </div>
@@ -36,9 +80,8 @@ include 'template/head.php';
                     <div class="row">
                         <div class="col-lg-6 offset-lg-6">
                             <div class="hi-text">
-                                <span>Shape your body</span>
-                                <h1>Be <strong>strong</strong> traning hard</h1>
-                                <a href="#" class="primary-btn">Get info</a>
+                                <span>Acceso a nuestras 4 sedes con una sola membresía</span>
+                                <h1>ENTRENA SIN LÍMITES Y <strong>ALCANZA TUS METAS</strong></h1> <a href="https://wa.me/51982814717" class="primary-btn"> Únete Hoy </a>
                             </div>
                         </div>
                     </div>
@@ -60,38 +103,121 @@ include 'template/head.php';
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="cs-item">
-                        <span class="flaticon-034-stationary-bike"></span>
-                        <h4>Modern equipment</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            dolore facilisis.</p>
+                <div class="col-lg-3 col-md-6">
+                    <div class="cs-item text-center">
+
+                        <img src="img/sedes/porvenir.png" alt="Sede El Porvenir" class="sede-img">
+
+                        <h4>📍 El Porvenir</h4>
+                        <p>
+                            Av. Buenos Aires S-16<br>
+                            Frente a la Posta El Carmen
+                        </p>
+
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="cs-item">
-                        <span class="flaticon-033-juice"></span>
-                        <h4>Healthy nutrition plan</h4>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-                            facilisis.</p>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="cs-item text-center">
+
+                        <img src="img/sedes/centro.png" alt="Sede Centro" class="sede-img">
+
+                        <h4>📍 Centro</h4>
+                        <p>
+                            Av. Manuel Ruiz 455 - 2do Piso<br>
+                            Frente al Mercado Modelo
+                        </p>
+
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="cs-item">
-                        <span class="flaticon-002-dumbell"></span>
-                        <h4>Proffesponal training plan</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            dolore facilisis.</p>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="cs-item text-center">
+
+                        <img src="img/sedes/ovalo.png" alt="Sede Óvalo" class="sede-img">
+
+                        <h4>📍 Óvalo</h4>
+                        <p>
+                            Urb. Casuarinas A11 II Etapa<br>
+                            Frente al Parque del Amor
+                        </p>
+
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="cs-item">
-                        <span class="flaticon-014-heart-beat"></span>
-                        <h4>Unique to your needs</h4>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-                            facilisis.</p>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="cs-item text-center">
+
+                        <img src="img/sedes/marina.png" alt="Sede La Marina" class="sede-img">
+
+                        <h4>📍 La Marina</h4>
+                        <p>
+                            Av. La Marina K3-12<br>
+                            Frente a Real Plaza
+                        </p>
+
+                    </div>
+
+                </div>
+                <br>
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Why chose us?</span>
+                        <h2>PUSH YOUR LIMITS FORWARD</h2>
                     </div>
                 </div>
+                <br>
+                <div class="row">
+
+                    <div class="col-lg-3 col-sm-6">
+
+                        <div class="cs-item">
+                            <span class="flaticon-002-dumbell"></span>
+                            <h4>Máquinas Modernas</h4>
+                            <p>
+                                Accede a una amplia variedad de máquinas y equipos
+                                para desarrollar fuerza, resistencia y alcanzar tus objetivos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="cs-item">
+                            <span class="flaticon-033-juice"></span>
+                            <h4>Entrenamiento Funcional</h4>
+                            <p>
+                                Mejora tu condición física con zonas funcionales,
+                                combate y actividades diseñadas para todos los niveles.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="cs-item">
+                            <span class="flaticon-014-heart-beat"></span>
+                            <h4>Clases y Baile</h4>
+                            <p>
+                                Disfruta de clases grupales y sesiones de baile que
+                                harán tus entrenamientos más dinámicos y divertidos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="cs-item">
+                            <span class="flaticon-033-juice"></span>
+                            <h4>Beneficios Exclusivos</h4>
+                            <p>
+                                Acceso a Xbox, Step, sillones masajeadores e
+                                instructores en sala para acompañarte en cada entrenamiento.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
             </div>
         </div>
     </section>
