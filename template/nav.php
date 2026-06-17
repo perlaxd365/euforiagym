@@ -54,16 +54,7 @@ function active($pages)
                             'gallery.php',
                             'blog.php'
                         ]) ?>">
-                <a href="#">Páginas</a>
-                <ul class="dropdown">
-                    <li><a href="./about-us.php">About us</a></li>
-                    <li><a href="./class-timetable.php">Classes timetable</a></li>
-                    <li><a href="./bmi-calculator.php">BMI calculate</a></li>
-                    <li><a href="./team.php">Our team</a></li>
-                    <li><a href="./gallery.php">Gallery</a></li>
-                    <li><a href="./blog.php">Our blog</a></li>
-                    <li><a href="./404.php">404</a></li>
-                </ul>
+              
             </li>
 
             <li class="<?= active('contact.php') ?>">
@@ -117,24 +108,7 @@ function active($pages)
                             <a href="./team.php">Nuestro Equipo</a>
                         </li>
 
-                        <li class="<?= active([
-                                        'about-us.php',
-                                        'class-timetable.php',
-                                        'bmi-calculator.php',
-                                        'gallery.php',
-                                        'blog.php'
-                                    ]) ?>">
-                            <a href="#">Páginas</a>
-                            <ul class="dropdown">
-                                <li><a href="./about-us.php">About us</a></li>
-                                <li><a href="./class-timetable.php">Classes timetable</a></li>
-                                <li><a href="./bmi-calculator.php">BMI calculate</a></li>
-                                <li><a href="./team.php">Our team</a></li>
-                                <li><a href="./gallery.php">Gallery</a></li>
-                                <li><a href="./blog.php">Our blog</a></li>
-                                <li><a href="./404.php">404</a></li>
-                            </ul>
-                        </li>
+                     
 
                         <li class="<?= active('contact.php') ?>">
                             <a href="./contact.php">Contacto</a>

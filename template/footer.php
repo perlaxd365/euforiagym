@@ -1,111 +1,146 @@
+
+
      <!-- Search model Begin -->
      <div class="search-model">
          <div class="h-100 d-flex align-items-center justify-content-center">
              <div class="search-close-switch">+</div>
              <form class="search-model-form">
-                 <input type="text" id="search-input" placeholder="Search here.....">
+                 <input type="text" id="search-input" placeholder="Buscar...">
              </form>
          </div>
      </div>
-     <!-- Search model end -->
+     <!-- Search model End -->
+
+     <!-- Contacto Rápido -->
      <div class="gettouch-section">
          <div class="container">
              <div class="row">
+
                  <div class="col-md-4">
                      <div class="gt-text">
                          <i class="fa fa-map-marker"></i>
-                         <p>333 Middle Winchendon Rd, Rindge,<br /> NH 03461</p>
+                         <p>
+                             <strong>Chimbote</strong><br>
+                             Av. Manuel Ruiz<br>
+                             El Porvenir S-16
+                       |
+                             <strong>Nuevo Chimbote</strong><br>
+                             Av. La Marina<br>
+                             Óvalo La Familia
+                         </p>
                      </div>
                  </div>
+
                  <div class="col-md-4">
                      <div class="gt-text">
                          <i class="fa fa-mobile"></i>
                          <ul>
-                             <li>125-711-811</li>
-                             <li>125-668-886</li>
+                             <li>+51 982 814 717</li>
                          </ul>
                      </div>
                  </div>
                  <div class="col-md-4">
                      <div class="gt-text email">
                          <i class="fa fa-envelope"></i>
-                         <p>Support.gymcenter@gmail.com</p>
+                         <p>euforiagym@hotmail.com</p>
                      </div>
                  </div>
+
              </div>
          </div>
      </div>
-     <section class="footer-section">
+
+     <!-- Footer -->
+     <footer class="footer-section">
          <div class="container">
              <div class="row">
+
                  <div class="col-lg-4">
                      <div class="fs-about">
                          <div class="fa-logo">
-                             <a href="#"><img src="img/logo.png" alt=""></a>
+                             <a href="#">
+                                 <img src="img/logo.png" alt="Euforia Gym">
+                             </a>
                          </div>
-                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                             labore dolore magna aliqua endisse ultrices gravida lorem.</p>
+
+                         <p>
+                             En Euforia Gym contamos con modernas instalaciones,
+                             entrenadores capacitados y el mejor ambiente para que
+                             alcances tus metas de fuerza, salud y bienestar.
+                         </p>
+
                          <div class="fa-social">
                              <a href="#"><i class="fa fa-facebook"></i></a>
-                             <a href="#"><i class="fa fa-twitter"></i></a>
-                             <a href="#"><i class="fa fa-youtube-play"></i></a>
                              <a href="#"><i class="fa fa-instagram"></i></a>
-                             <a href="#"><i class="fa  fa-envelope-o"></i></a>
+                             <a href="#"><i class="fa fa-tiktok"></i></a>
+                             <a href="#"><i class="fa fa-youtube-play"></i></a>
+                             <a href="#"><i class="fa fa-whatsapp"></i></a>
                          </div>
                      </div>
                  </div>
+
                  <div class="col-lg-2 col-md-3 col-sm-6">
                      <div class="fs-widget">
-                         <h4>Useful links</h4>
+                         <h4>Enlaces</h4>
                          <ul>
-                             <li><a href="#">About</a></li>
-                             <li><a href="#">Blog</a></li>
-                             <li><a href="#">Classes</a></li>
-                             <li><a href="#">Contact</a></li>
+                             <li><a href="index.php">Inicio</a></li>
+                             <li><a href="team.php">Nosotros</a></li>
+                             <li><a href="services.php">Servicios</a></li>
+                             <li><a href="contact.php">Contacto</a></li>
                          </ul>
                      </div>
                  </div>
+
                  <div class="col-lg-2 col-md-3 col-sm-6">
                      <div class="fs-widget">
-                         <h4>Support</h4>
+                         <h4>Servicios</h4>
                          <ul>
-                             <li><a href="#">Login</a></li>
-                             <li><a href="#">My account</a></li>
-                             <li><a href="#">Subscribe</a></li>
-                             <li><a href="#">Contact</a></li>
+                             <li><a href="#">Musculación</a></li>
+                             <li><a href="#">Cardio</a></li>
+                             <li><a href="#">Entrenamiento Personal</a></li>
+                             <li><a href="#">Asesoría Fitness</a></li>
                          </ul>
                      </div>
                  </div>
+
                  <div class="col-lg-4 col-md-6">
                      <div class="fs-widget">
-                         <h4>Tips & Guides</h4>
+                         <h4>Nuestras Sedes</h4>
+
                          <div class="fw-recent">
-                             <h6><a href="#">Physical fitness may help prevent depression, anxiety</a></h6>
+                             <h6>Chimbote</h6>
                              <ul>
-                                 <li>3 min read</li>
-                                 <li>20 Comment</li>
+                                 <li>Av. Manuel Ruiz</li>
+                                 <li>El Porvenir S-16</li>
                              </ul>
                          </div>
+
                          <div class="fw-recent">
-                             <h6><a href="#">Fitness: The best exercise to lose belly fat and tone up...</a></h6>
+                             <h6>Nuevo Chimbote</h6>
                              <ul>
-                                 <li>3 min read</li>
-                                 <li>20 Comment</li>
+                                 <li>Av. La Marina</li>
+                                 <li>Óvalo La Familia</li>
                              </ul>
                          </div>
+
                      </div>
                  </div>
+
              </div>
+
              <div class="row">
                  <div class="col-lg-12 text-center">
                      <div class="copyright-text">
-                         <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                             Copyright &copy;<script>
+                         <p>
+                             Copyright &copy;
+                             <script>
                                  document.write(new Date().getFullYear());
-                             </script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                             </script>
+                             Euforia Gym. Todos los derechos reservados.
+                         </p>
                      </div>
                  </div>
              </div>
+
          </div>
-     </section>
+     </footer>
